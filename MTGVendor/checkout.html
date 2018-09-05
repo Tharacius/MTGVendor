@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Magic:The Gathering Checkout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/Style.css">
+    <!--Analytics-->
+
+
+</head>
+
+<body>
+<div id="main" class="container">
+    <div class="row my-card justify-content-center">
+        <div class="col-lg-5 photo-bg"><img src="images/logo.png" height="400" width="370"/></div>
+        <div class="col-lg-7 card">
+
+            <h2>Confirm your purchase!</h2>
+            <div class="x">
+             <p>After confirming your order I will message you within 5 business days. Thank you for your purchase and good luck!</p>
+            </div>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="B5243A35UC8VY">
+                <table>
+                    <tr><td><input type="hidden" name="on0" value="Select a option.">Select a option.</td></tr><tr><td><select name="os0">
+                    <option value="Basic Deck">Basic Deck $9.99 USD</option>
+                    <option value="Challenger Pack">Challenger Pack $25.00 USD</option>
+                    <option value="Core Pack">Core Pack $30.00 USD</option>
+                    <option value="1st Edition(Limited) Deck">1st Edition(Limited) Deck $140.00 USD</option>
+                </select> </td></tr>
+                </table>
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+
+            <a href="mailto:sbuzzamss@gmail.com" class="btn btn-primary mt-2">Email</a>
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+
+</html>
+
+</html>
